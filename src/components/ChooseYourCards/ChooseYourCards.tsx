@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export function ChooseYourCards() {
     return (
-        <div className="relative px-6 py-20 md:py-64" id="tarjetas">
+        <div className="relative px-6 py-20 md:py-15" id="tarjetas">
             <BackgroundRadialRight />
             <div className="block max-w-5xl mx-auto md:grid md:grid-cols-2">
                 <Reveal>
@@ -28,7 +28,7 @@ export function ChooseYourCards() {
                         >
                             {dataCards.map(({ image, id }) => (
                                 <SwiperSlide key={id}>
-                                    <Image src={image} alt="Credit Card" width="400" height="300" />
+                                    <Image src={image} alt="Credit Card" width="500" height="300" />
                                 </SwiperSlide>
                             ))}
                         </Swiper>

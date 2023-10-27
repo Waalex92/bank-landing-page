@@ -8,7 +8,7 @@ import { Reveal } from "../Reveal"
 
 export function FirstBlock() {
     return (
-        <div className="relative p-4 md:py-40">
+        <div className="relative p-4 md:py-15">
             <BackgroundRadialRight />
             <div className="grid max-w-5xl mx-auto md:grid-cols-2">
                 <div>
@@ -34,7 +34,7 @@ export function FirstBlock() {
                     </Reveal>
                 </div>
                 <MotionTransition className="flex items-center justify-center">
-                    <Image src="/assets/cards-block.png" alt="Card" width={450} height={450} className="h-auto w-72 md:w-full" />
+                    <Image src="/assets/cards-block.png" alt="Card" width={450} height={450} className="mt-10 h-auto w-72 md:w-full" />
                 </MotionTransition>
             </div>
         </div>

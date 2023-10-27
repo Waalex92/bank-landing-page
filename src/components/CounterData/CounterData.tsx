@@ -5,7 +5,7 @@ import { dataCounter } from "./CounterData.data";
 
 export function CounterData() {
     return (
-        <MotionTransition className="max-w-5xl py-10 mx-auto md:py-64">
+        <MotionTransition className="max-w-5xl py-10 mx-auto md:py-15">
             <div className="justify-between md:flex">
                 {dataCounter.map(({ id, startNumber, endNumber, text }) => (
                     <div key={id} className="py-5 text-2xl text-center md:text-left">
